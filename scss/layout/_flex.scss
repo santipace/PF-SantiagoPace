@@ -1,0 +1,42 @@
+.div_salto {
+	margin: 50px;
+	display: flex;
+	align-items: center;
+	img {
+		p {
+			display: grid;
+			margin: auto;
+		}
+	}
+}
+
+.term-cond {
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cuadrado {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.video {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.cajaconsulta {
+	display: flex;
+	justify-content: space-evenly;
+}
+.formulariocaja {
+	display: flex;
+	flex-direction: column;
+}

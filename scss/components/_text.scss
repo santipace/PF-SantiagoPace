@@ -1,0 +1,39 @@
+@import "../utilities/color";
+
+
+.articulacion-texto {
+    max-width: 80%;
+    margin: auto;
+    color: $color_1;
+    font-size: 60px;
+    font-family: $font-family_1;
+    padding-top: 100px;
+    text-shadow: 0 3px 10px rgb(0 0 0 / 80);
+}
+
+.caja {
+    text-align: center;
+    color: black;
+    opacity: 1;
+}
+
+.descripcion-prod {
+	margin-left: 1rem;
+	font-style: italic;
+    color: black;
+    opacity: 1;
+}
+
+.parrafo-compras {
+	text-align: center;
+	font-weight: bold;
+    color: black;
+    opacity: 1;
+}
+
+.parrafo {
+	padding: 10px;
+	font-weight: bold;
+    color: black;
+    opacity: 1;
+}
