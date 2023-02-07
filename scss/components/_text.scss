@@ -1,4 +1,4 @@
-@import "../utilities/color";
+
 
 
 .articulacion-texto {
@@ -13,27 +13,27 @@
 
 .caja {
     text-align: center;
-    color: black;
+    color: map-get($paleta_colores_fondo, primario);
     opacity: 1;
 }
 
 .descripcion-prod {
 	margin-left: 1rem;
 	font-style: italic;
-    color: black;
+    color: map-get($paleta_colores_fondo, primario);
     opacity: 1;
 }
 
 .parrafo-compras {
 	text-align: center;
 	font-weight: bold;
-    color: black;
+    color: map-get($paleta_colores_fondo, primario);
     opacity: 1;
 }
 
 .parrafo {
 	padding: 10px;
 	font-weight: bold;
-    color: black;
+    color: map-get($paleta_colores_fondo, primario);
     opacity: 1;
 }

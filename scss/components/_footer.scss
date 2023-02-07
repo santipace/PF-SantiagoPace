@@ -1,13 +1,13 @@
-@import "../utilities/color";
+
 
 footer {
-	background-color: $background-color_1;
+	background-color: map-get($paleta_colores_fondo, primario);
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	color: $color_1;
-	display: flex;
 	flex-wrap: wrap;
+	display: flex;
 	align-items: center;
 	justify-items: center;
 }

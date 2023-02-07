@@ -1,8 +1,3 @@
 .contenedor-grid {
-	display: grid;
-	grid-template-columns: auto auto;
-	grid-template-rows: auto auto;
-	grid-template-areas: "productos productos1" "productos productos2" "productos productos3";
-	justify-content: space-around;
-	gap: 20px;
+	@include contenedor_de_grid(auto auto, auto auto, "productos productos1" "productos productos2" "productos productos3", space-around, 20px);
 }

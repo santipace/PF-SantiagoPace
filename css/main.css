@@ -22,8 +22,8 @@ li a:hover {
 }
 
 .imagennav {
-  height: 80px;
-  width: 70px;
+  height: 90px;
+  width: 100px;
 }
 
 .articulacion {
@@ -152,8 +152,8 @@ h2 {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  text-align: center;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -166,8 +166,8 @@ h2 {
 
 .video {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .cajaconsulta {
@@ -195,8 +195,8 @@ footer {
   height: 100%;
   width: 100%;
   color: #fff;
-  display: flex;
   flex-wrap: wrap;
+  display: flex;
   align-items: center;
   justify-items: center;
 }
@@ -209,8 +209,8 @@ footer {
   .div_salto {
     margin: 50px;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
   }
   .descripcion-prod {
     margin-top: 1rem;
@@ -225,11 +225,12 @@ footer {
   }
   .mapa {
     display: grid;
-    width: 100%;
+    width: 675px;
+    height: 541px;
     padding: 50px;
   }
   .img-carrito {
-    width: 200px;
+    width: 250px;
   }
 }
 @media (max-width: 768px) {
@@ -240,8 +241,8 @@ footer {
   .div_salto {
     margin: 50px;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
   }
   .descripcion-prod {
     margin-top: 1rem;
@@ -264,7 +265,7 @@ footer {
     max-width: 100%;
   }
   .img-carrito {
-    width: 200px;
+    width: 250px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -275,14 +276,13 @@ footer {
   .div_salto {
     margin: 50px;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
   }
   .descripcion-prod {
     margin-top: 1rem;
   }
   .articulacion-texto {
-    padding-top: 0;
     font-size: 40px;
   }
   .videito {
@@ -296,9 +296,39 @@ footer {
     padding: 50px;
   }
   .img-carrito {
-    width: 200px;
+    width: 300px;
   }
 }
-/* Clases */
-/* ID */
-/* MEDIA QUERYS *//*# sourceMappingURL=main.css.map */
+@media only screen and (max-width: 320px) {
+  .term-cond {
+    display: block;
+  }
+  .articulacion {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .articulacion-texto {
+    padding-top: 50px;
+    font-size: 35px;
+  }
+  .mapa {
+    display: grid;
+    width: 100%;
+    padding: 50px;
+  }
+  .div_salto {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .videito {
+    margin: auto;
+    width: 280px;
+    height: 221px;
+  }
+  .img-carrito {
+    width: 200px;
+  }
+}/*# sourceMappingURL=main.css.map */
