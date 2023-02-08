@@ -1,11 +1,11 @@
-@mixin contenedor_de_flex ($alineamiento){
+@mixin contenedor_de_flex ($alineamiento) {
     display: flex;
     text-align: $alineamiento;
-	justify-content: $alineamiento;
-	align-items: $alineamiento;
+    justify-content: $alineamiento;
+    align-items: $alineamiento;
 }
 
-@mixin contenedor_de_grid ($columna, $filas, $areas, $contenido, $gap){
+@mixin contenedor_de_grid ($columna, $filas, $areas, $contenido, $gap) {
     display: grid;
     grid-template-columns: $columna;
     grid-template-rows: $filas;
@@ -14,8 +14,8 @@
     gap: $gap;
 }
 
-@mixin contenedores_de_contenido ($columna, $alineamiento){
+@mixin contenedores_de_contenido ($columna, $alineamiento) {
     display: flex;
     flex-direction: $columna;
-	align-items: $alineamiento;
+    align-items: $alineamiento;
 }

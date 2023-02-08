@@ -1,38 +1,23 @@
+// VARIABLES
 @import "../scss/utilities/color";
+// MIXINIS
 @import "../scss/extras/mixin";
+// RESET DE CSS
 @import "../scss/normalize/reset";
+// BARRA NAVEGACION Y HEADER
 @import "../scss/components/navbar";
+// IMAGENES
 @import "../scss/components/images";
+// BODY
 @import "../scss/components/principal";
+// TITULOS
 @import "../scss/components/titles";
+// TEXTOS Y PARRAFOS
 @import "../scss/components/text";
+// CONTENEDORES FLEX Y GRID
 @import "../scss/layout/flex";
 @import "../scss/layout/grid";
+// FOOTER PAGINA
 @import "../scss/components/footer";
+// MEDIA QUERIES: 320PX, 576PX, 768PX Y 992PX
 @import "../scss/views/queries";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

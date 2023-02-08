@@ -1,5 +1,3 @@
-
-
 header {
 	position: sticky;
 	top: 1;
@@ -10,6 +8,7 @@ li {
 		background: map-get($paleta_colores_fondo, terciario);
 		transition: .5s;
 	}
+
 	a {
 		&:hover {
 			background: map-get($paleta_colores_fondo, terciario);

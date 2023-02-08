@@ -1,6 +1,3 @@
-
-
-
 .articulacion-texto {
     max-width: 80%;
     margin: auto;
@@ -18,22 +15,22 @@
 }
 
 .descripcion-prod {
-	margin-left: 1rem;
-	font-style: italic;
+    margin-left: 1rem;
+    font-style: italic;
     color: map-get($paleta_colores_fondo, primario);
     opacity: 1;
 }
 
 .parrafo-compras {
-	text-align: center;
-	font-weight: bold;
+    text-align: center;
+    font-weight: bold;
     color: map-get($paleta_colores_fondo, primario);
     opacity: 1;
 }
 
 .parrafo {
-	padding: 10px;
-	font-weight: bold;
+    padding: 10px;
+    font-weight: bold;
     color: map-get($paleta_colores_fondo, primario);
     opacity: 1;
 }
