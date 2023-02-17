@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"
-        content="acerca de, informacion, historia, crecimiento de empresa, fundacion, video de descripcion, industria, entidad, nacional, sobre nosotros">
+    <meta name="keywords" content="comprar, envios, modelos, opciones, colores, cantidad, compra final, consultenos">
     <meta name="description"
-        content="Con mas de 23 años de trayectoria, IRON KING se especializa por hacer crecer la industria metalúrgica nacional y siempre pensar en sus clientes!.">
-    <title>QUIENES SOMOS? | IRON KING</title>
+        content="Compra productos de IRON KING por internet. Tenemos los mejores productos metalúrgicos para tu casa y más. Hace tu pedido y págalo online. Envíos gratis en el día!.">
+    <title>COMPRAS | IRON KING</title>
     <!-- FAVICON -->
     <link rel="shortcut icon" href="../assets/img/icono.png" type="image/x-icon">
     <!-- BOOTSTRAP -->
@@ -28,6 +27,7 @@
 </head>
 
 <body>
+
     <!-- BARRA DE NAVEGACION -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -59,51 +59,70 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="./acerca-sobre-nosotros.html">QUIENES SOMOS?</a>
                             </li>
-
                         </ul>
-
                     </div>
                 </div>
             </div>
         </nav>
     </header>
     <!-- FIN BARRA DE NAVEGACION -->
+
+
     <!-- MAIN DE LA PAGINA -->
     <main class="fondo-paginas">
-        <h1 class="animate__animated animate__backInDown">La empresa</h1>
-        <div class="video">
-
-
-            <h2 class="animate__animated animate__backInDown">Quienes somos?</h2>
-            <div class="parrafo">
-                <p>Iron King nació en el año 2000 y es la entidad que representa y promueve a un sector clave para el
-                    desarrollo del país, reuniendo a más de 60
-                    cámaras, tanto sectoriales como regionales que hoy alcanzan a más de 24.000 empresas en todo el
-                    territorio argentino que generan unos 300.000 puestos de trabajo directos, cuya actividad incide
-                    notablemente en el PBI.
-                    Iron King orienta el esfuerzo conjunto a favor del federalismo, la industria nacional y la
-                    integración
-                    entre gremios y empresarios. Interactúa con diversas entidades públicas y privadas, y capacita y
-                    actualiza al personal de sus empresas representadas. Asimismo, promueve la actualización tecnológica
-                    para proveer mejores maquinarias, equipos, componentes e insumos a otras áreas productivas.</p>
-                <p>Iron King orienta el esfuerzo conjunto a favor del federalismo, la industria nacional y la
-                    integración entre gremios y empresarios. Interactúa con diversas entidades públicas y privadas, y
-                    capacita y actualiza al personal de sus empresas representadas. Asimismo, promueve la actualización
-                    tecnológica para proveer mejores maquinarias, equipos, componentes e insumos a otras áreas
-                    productivas.</p>
-            </div>
-
-            <div>
-                <iframe alt="video referido a la empresa de como somos" class="videito" width="875" height="341"
-                    src="https://www.youtube.com/embed/svRUDhmXzSc" title="Qué es la metalurgia" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
+        <div class="imagencons">
+            <img class="productosimg" src="../assets/img/imagen-productos.webp" alt="imagen de seccion compras">
         </div>
+        <h1 class="animate__animated animate__backInDown">Compras</h1>
+        <p class="parrafo-compras">
+            Acá podras elegir nuestros modelos que encontraras previamente en nuestra sección <b>Productos!</b> <br>
+            Además podras elegir cuantos modelos queres y en que colores! <br>
+            Para mas información dirigite a nuestra sección de <b>Consulta</b> para que podamos resolver todas tus
+            dudas!
+        </p>
+        <fieldset>
+            <div class="cuadrado">
+                <div class="img-carrito">
+                    <img class="animate__animated animate__bounceInLeft" src="../assets/img/carrito.png"
+                        alt="imagen de carrito supermercado">
+                </div>
+                <div class="compras">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Seleccione su producto</option>
+                        <option value="sillalta">Sillas altas</option>
+                        <option value="canastto">Canasto</option>
+                        <option value="estaca">Estaca</option>
+                        <option value="barra">Barra separadora</option>
+                        <option value="mesa1">Mesa chica</option>
+                        <option value="mesa2">Mesa grande</option>
+                        <option value="picaporte">Picaporte</option>
+                        <option value="mancuernas">Mancuernas</option>
+                        <option value="perfiles">Perfiles</option>
+                        <option value="rejas">Rejas</option>
+                        <option value="tejido">Tejido</option>
+                        <option value="tubos">Tubos</option>
+                        <option value="cadena">Cadenas</option>
+                        <option value="mas">Para mas opciones ir a Consultas</option>
+                    </select>
+
+                    <br>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Colores</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Cantidad</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                        <label class="btn btn-primary" for="btn-check"><b>Comprar</b></label>
+                    </div>
+        </fieldset>
+        </div>
+        </p>
     </main>
-
-
-
     <!-- FOOTER -->
     <footer>
 
@@ -115,6 +134,7 @@
                     ©Copyright 2022.Productos de hierro y metalurgico. Todos los derechos reservados
                     <br>
                     Seguinos en nuestras redes sociales
+                    <br>
                     <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter" fa-4px></i></a>
                     <a href="https://wwww.facebook.com" target="_blank"><i class="fa-brands fa-facebook" fa-4px></i></a>
                     <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube" fa-4px></i></a>
@@ -130,6 +150,7 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
 
         </script>
+
 </body>
 
 </html>
